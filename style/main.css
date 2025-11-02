@@ -1,0 +1,70 @@
+@import 'stylesheet.css'; 
+
+:root {
+  --xs: 0px;
+  --sm: 375px;
+  --md: 834px;
+  --lg: 1440px;
+
+  --xs-max: calc(var(--sm) - 1px);
+  --sm-max: calc(var(--md) - 1px);
+  --md-max: calc(var(--lg) - 1px);
+
+  --container-max-width: 1440px;
+
+  /* Primary Blue */
+  --color-blue-main: #267EFB;
+  --color-blue-surface: #E6F2FE;
+  --color-blue-border: #679AF9;
+  --color-blue-hover: #267EFB;
+  --color-blue-pressed: #0F3263;
+  --color-blue-focus: #A8CBFC;
+
+  /* Secondary Space Cadet */
+  --color-navyblue-main: #1B394F;
+  --color-navyblue-surface: #EBEBED;
+  --color-navyblue-border: #5F7484;
+  --color-navyblue-hover: #132737;
+  --color-navyblue-pressed: #0C1620;
+  --color-navyblue-focus: #A4ABB3;
+
+  /* Neutrals Wenge */
+  --color-gray-100: #060606;
+  --color-gray-90: #424344;
+  --color-gray-80: #616384;
+  --color-gray-70: #747676;
+  --color-gray-60: #9A9AAD;
+  --color-gray-50: #B6BFC2;
+  --color-gray-40: #D8DDE0;
+  --color-gray-30: #E4E9ED;
+  --color-gray-20: #EEF0F4;
+  --color-gray-10: #FFFFFF;
+
+  /* Success Very Light Malachite Green */
+  --color-green-main: #04AE48;
+  --color-green-surface: #E6F7ED;
+  --color-green-border: #99DFB5;
+  --color-green-hover: #007A31;
+  --color-green-pressed: #044B1C;
+
+  /* Info Royal Blue */
+  --color-lightblue-main: #3267E5;
+  --color-lightblue-surface: #E8F0FC;
+  --color-lightblue-border: #ADC2F4;
+  --color-lightblue-hover: #23489F;
+  --color-lightblue-pressed: #14295B;
+
+  /* Warning Beer */
+  --color-orange-main: #F69F12;
+  --color-orange-surface: #FEF4E7;
+  --color-orange-border: #FDD2A0;
+  --color-orange-hover: #AE640D;
+  --color-orange-pressed: #643907;
+
+  /* Danger Orioles Orange */
+  --color-red-main: #CD2E00;
+  --color-red-surface: #FAEAE6;
+  --color-red-border: #EBA899;
+  --color-red-hover: #992D00;
+  --color-red-pressed: #541200;
+}

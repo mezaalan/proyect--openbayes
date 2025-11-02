@@ -1,0 +1,44 @@
+:root {
+  --font-family-primary: "VisueltPro", sans-serif;
+
+  /* Display Bold */
+  --font-display-1-size: 70px;
+  --font-display-1-weight: 700; 
+  --font-display-2-size: 58px;
+  --font-display-2-weight: 700; 
+
+  /* Headings Medium */
+  --font-heading-1-size: 48px;
+  --font-heading-1-weight: 500; 
+  --font-heading-2-size: 40px;
+  --font-heading-2-weight: 500;
+  --font-heading-3-size: 34px;
+  --font-heading-3-weight: 500;
+  --font-heading-4-size: 28px;
+  --font-heading-4-weight: 500;
+  --font-heading-5-size: 24px;
+  --font-heading-5-weight: 500;
+  --font-heading-6-size: 22px;
+  --font-heading-6-weight: 500;
+
+  /* Body - Large (20px) */
+  --font-body-large-size: 20px;
+  --font-body-large-bold: 700;
+  --font-body-large-medium: 500;
+  --font-body-large-regular: 400;
+  --font-body-large-light: 300;
+
+  /* Body - Base (16px) */
+  --font-body-base-size: 16px;
+  --font-body-base-bold: 700;
+  --font-body-base-medium: 500;
+  --font-body-base-regular: 400;
+  --font-body-base-light: 300;
+
+  /* Body - Small (14px) */
+  --font-body-small-size: 14px;
+  --font-body-small-bold: 700;
+  --font-body-small-medium: 500;
+  --font-body-small-regular: 400;
+  --font-body-small-light: 300;
+}
