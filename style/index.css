@@ -1,5 +1,6 @@
-@import "main.css";
-@import "fonts.css";
-@import "navbar.css";
-@import "stylesheet.css";
-@import "typography.css";
+@import "./main.css";
+@import "./fonts.css";
+@import "./colors.css";
+@import "./typography.css";
+@import "./alert-bar.css";
+@import "./navbar.css";

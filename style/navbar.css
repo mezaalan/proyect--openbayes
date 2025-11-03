@@ -1,4 +1,38 @@
-.menu__item {
-  font-weight: bold;
-  font-size: 70px;
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1240px;
+  height: 42px;
+  gap: 40px; 
+}
+
+.menu__toggle {
+  display: block;
+  @media (min-width: 834px) {
+    display: none;
+  }
+}
+
+.menu {
+  display: flex;
+
+}
+
+.list {
+  display: flex; 
+  list-style: none;
+  font-size: 16px;
+  color: #000000;
+  padding: 0;
+  margin: 0;   
+  gap: 20px; 
+}
+
+.link {
+  cursor: pointer;
+  list-style: none;
+  font-size: 16px;
+  color: #000000;
 }
