@@ -9,7 +9,7 @@ body {
 
 :root {
   --xs: 0px;
-  --sm: 375px;
+  --sm: 390px;
   --lg: 1440px;
 
   --xs-max: calc(var(--sm) - 1px);
