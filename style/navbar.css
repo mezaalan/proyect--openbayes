@@ -32,6 +32,7 @@
   }
 }
 
+
 .navbar__logo {
   padding: 13px 0;
 }
@@ -106,6 +107,9 @@
   display: flex;
   padding: 12px 0 12px 40px;
   gap: 14px;
+  @media (min-width: 876px) {
+    gap: 14px; 
+  } 
 }
 
 .icon__search--mobile {
@@ -115,6 +119,5 @@
   outline: none;
   @media (min-width: 1440px) {
     display: none;
-    
   } 
 }
