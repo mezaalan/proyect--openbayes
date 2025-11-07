@@ -1,27 +1,50 @@
 .hero {
-	background-image: url(../image/background-hero-small.png);
-	@media (min-width: 876px) {
-   background-image: url(../image/background-hero-big.png);   
-  }
+  overflow: hidden;
+  background-color: #f2f0f1;
+  background-image: url(../images/background-hero.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero__content {
   display: flex;
-	flex-flow: column wrap;
+  flex-flow: column wrap;
   @media (min-width: 1440px) {
-    flex-flow: row wrap;    
-  } 
+    flex-flow: row wrap;
+  }
 }
 
 .hero__svg-container,
 .hero__info-block {
-	flex: 1 0 50%;
-	
+  flex: 1 0 50%;
+}
+
+.hero__info {
 }
 
 .hero__title {
-	font-size: 67px;
-	letter-spacing: 0;
-	width: 577px;
-	height: 173px;
+  font-family: "Integral CF";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  vertical-align: middle;
+  color: #000;
+  padding-left: 18px;
+}
+
+.hero__text {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  max-width: 358px;
+  margin-top: 20px;
+  padding: 18px;
+}
+
+.hero__svg-container {
 }
