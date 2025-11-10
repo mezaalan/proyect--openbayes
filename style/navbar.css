@@ -125,7 +125,7 @@
 }
 .navbar__icons {
   display: flex;
-  padding-right: 17px;
+  padding-right: 16px;
   gap: 12px;
   @media (min-width: 876px) {
     gap: 19px;
@@ -137,7 +137,12 @@
   background: none;
   border: none;
   outline: none;
+  padding-right: 1px;
   @media (min-width: 1440px) {
     display: none;
   }
+}
+
+.icon__shopping-cart {
+  padding-right: 4px;
 }

@@ -7,9 +7,7 @@
   color: #ffffff;
   width: 100%;
   height: 34px;
-  font-size: 12px;
   @media (min-width: 1440px) {
-    font-size: 14px;
     height: 38px;
   }
 }
@@ -20,12 +18,26 @@
 }
 
 .alert-bar__text {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0;
   padding-right: 7px;
 }
 
 .alert-bar__link {
   cursor: pointer;
   color: #ffffff;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 .alert-bar__control {

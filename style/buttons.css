@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 62px;
+  color: white;
+  padding: 16px 54px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+
+  &.button--hero {
+    font-size: 16px;
+  }
+}
