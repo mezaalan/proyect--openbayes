@@ -1,0 +1,37 @@
+.marquee {
+  display: flex;
+  width: 100%;
+  padding: 44px 0;
+  background-color: black;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  animation: marquee-scroll 8s infinite linear;
+  padding-right: 120px;
+
+  @media (min-width: 1440px) {
+    animation: marquee-scroll 6s infinite linear;
+  }
+}
+
+.company {
+  flex: 0 0 auto;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    translate: 0;
+  }
+  100% {
+    translate: -100%;
+  }
+}

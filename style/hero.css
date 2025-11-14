@@ -20,26 +20,39 @@
   position: relative;
   z-index: 2;
   padding: 0 16px 25px 16px;
+
   @media (min-width: 876px) {
     padding: 0 50px 40px 50px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 37px 60px 55px 100px;
   }
 }
 
 .hero__title {
   font-family: "Integral CF";
   font-weight: 700;
-  font-style: Bold;
+  font-style: normal;
   font-size: 36px;
   line-height: 34px;
   letter-spacing: 0;
   vertical-align: middle;
   margin-bottom: 10px;
   padding-top: 7px;
+
   @media (min-width: 876px) {
     font-size: 46px;
     letter-spacing: 9px;
     margin-bottom: 20px;
     line-height: 48px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 64px;
+    letter-spacing: 0;
+    margin-bottom: 24px;
+    line-height: 64px;
   }
 }
 
@@ -51,6 +64,12 @@
   line-height: 20px;
   letter-spacing: 0;
   margin-bottom: 20px;
+
+  @media (min-width: 1440px) {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 26px;
+  }
 }
 
 .hero__stats {
@@ -61,6 +80,10 @@
   z-index: 2;
   padding: 0 56px;
   gap: 17px;
+  @media (min-width: 1440px) {
+    padding-left: 100px;
+    padding-right: 24px;
+  }
 
   .hero__stat {
     display: flex;
@@ -70,15 +93,25 @@
     &:nth-child(2) {
       border-left: 1px solid #d9d9d9;
       padding-left: 28px;
+
       @media (min-width: 876px) {
         border-right: 1px solid #d9d9d9;
         padding-left: 10%;
         padding-right: 10%;
       }
+
+      @media (min-width: 1440px) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
     }
 
     &:nth-child(3) {
       padding-left: 88px;
+
+      @media (min-width: 1440px) {
+        padding-left: 0;
+      }
     }
   }
 }
@@ -92,6 +125,10 @@
   letter-spacing: 0;
   vertical-align: middle;
   color: black;
+
+  @media (min-width: 1440px) {
+    font-size: 40px;
+  }
 }
 
 .stat__label {
@@ -102,20 +139,36 @@
   line-height: 22px;
   letter-spacing: 0;
   color: rgba(0, 0, 0, 0.6);
+
+  @media (min-width: 1440px) {
+    font-size: 16px;
+    margin-top: 5px;
+  }
 }
 
 .hero__svg-container {
   position: relative;
   min-height: 441px;
+
+  @media (min-width: 1440px) {
+    min-height: 663px;
+  }
 }
 
 .background-hero {
   position: absolute;
-  top: -36px;
-  left: -35px;
+  top: -8%;
+  right: -7%;
   width: 116%;
   height: 153%;
   object-fit: contain;
+
+  @media (min-width: 1440px) {
+    top: -7%;
+    right: -3%;
+    width: 114%;
+    height: 152%;
+  }
 }
 
 .four-pointed-star-small {
@@ -123,6 +176,7 @@
   z-index: 1;
   left: 7%;
   top: 29%;
+
   @media (min-width: 876px) {
     width: 50px;
     height: 50px;
@@ -132,6 +186,8 @@
   @media (min-width: 1440px) {
     width: 56px;
     height: 56px;
+    left: 4.1%;
+    top: 44.8%;
   }
 }
 
@@ -139,6 +195,7 @@
   position: absolute;
   left: 75%;
   top: 7%;
+
   @media (min-width: 876px) {
     width: 90px;
     height: 90px;
@@ -147,5 +204,7 @@
   @media (min-width: 1440px) {
     width: 104px;
     height: 104px;
+    left: 74.3%;
+    top: 12.9%;
   }
 }

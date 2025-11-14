@@ -40,15 +40,19 @@
   font-family: "Integral CF", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 32px;
+  font-size: 25px;
+  align-self: center;
   line-height: 100%;
   letter-spacing: 0;
-  padding-left: 18px;
   vertical-align: middle;
   color: #000;
+  padding-bottom: 1px;
+
   @media (min-width: 876px) {
+    font-size: 32px;
     padding-left: 0;
     padding-right: 40px;
+    padding-bottom: 12px;
   }
 }
 
@@ -127,8 +131,14 @@
   display: flex;
   padding-right: 16px;
   gap: 12px;
+
   @media (min-width: 876px) {
     gap: 19px;
+  }
+
+  @media (min-width: 876px) {
+    padding-right: 0;
+    gap: 15px;
   }
 }
 

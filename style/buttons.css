@@ -24,5 +24,8 @@
 
   &.button--hero {
     font-size: 16px;
+    @media (min-width: 1440px) {
+      width: 17.5%;
+    }
   }
 }

@@ -25,6 +25,9 @@
   line-height: 100%;
   letter-spacing: 0;
   padding-right: 7px;
+  @media (min-width: 1440px) {
+    font-size: 14px;
+  }
 }
 
 .alert-bar__link {
@@ -38,6 +41,9 @@
   letter-spacing: 0;
   text-decoration: underline;
   text-decoration-style: solid;
+  @media (min-width: 1440px) {
+    font-size: 14px;
+  }
 }
 
 .alert-bar__control {
@@ -48,9 +54,17 @@
 }
 
 .alert-bar__close-icon {
-  color: #ffffff;
+  display: block;
+  width: 15px;
+  height: 15px;
+
+  @media (min-width: 876px) {
+    width: 16px;
+    height: 16px;
+  }
+
   @media (min-width: 1440px) {
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
   }
 }
